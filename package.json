@@ -59,10 +59,16 @@
     "rxjs": "^5.1.0",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
-    "typescript": "~2.2.0",
+    "typescript": "~2.3.4",
     "zone.js": "^0.8.4"
   },
   "engines": {
     "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@types/fullcalendar": "^2.7.44",
+    "@types/jquery": "3.2.5",
+    "fullcalendar": "^3.4.0",
+    "jquery": "^3.2.1"
   }
 }

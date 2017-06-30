@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'fullcalendar-ag4';
+import { CalendarModule } from 'fullcalendar-ag4';
 
 @NgModule({
   declarations: [

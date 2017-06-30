@@ -5,9 +5,9 @@
     "moduleResolution": "node",
     "rootDir": "./src",
     "lib": [
-      "es2015",
+      "es2015.iterable",
       "dom"
-    ],
+    ],   
     "skipLibCheck": true,
     "types": []
   }

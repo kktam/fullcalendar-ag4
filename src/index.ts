@@ -1,11 +1,11 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SampleComponent } from './sample.component';
+import { CalendarComponent } from './calendar.component';
 import { SampleDirective } from './sample.directive';
 import { SamplePipe } from './sample.pipe';
 import { SampleService } from './sample.service';
 
-export * from './sample.component';
+export * from './calendar.component';
 export * from './sample.directive';
 export * from './sample.pipe';
 export * from './sample.service';
@@ -15,20 +15,20 @@ export * from './sample.service';
     CommonModule
   ],
   declarations: [
-    SampleComponent,
+    CalendarComponent,
     SampleDirective,
     SamplePipe
   ],
   exports: [
-    SampleComponent,
+    CalendarComponent,
     SampleDirective,
     SamplePipe
   ]
 })
-export class SampleModule {
+export class CalendarModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: SampleModule,
+      ngModule: CalendarModule,
       providers: [SampleService]
     };
   }
