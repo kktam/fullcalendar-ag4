@@ -1,0 +1,26 @@
+{
+  "name": "fullcalendar-ag4",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kktam/fullcalendar-ag4"
+  },
+  "author": {
+    "name": "Ka Tam",
+    "email": "nkltam2003@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kktam/fullcalendar-ag4/issues"
+  },
+  "module": "fullcalendar-ag4.js",
+  "typings": "fullcalendar-ag4.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
