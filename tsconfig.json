@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "experimentalDecorators": true,
+    "annotateForClosureCompiler": false,       
     "moduleResolution": "node",
     "rootDir": "./src",
     "lib": [

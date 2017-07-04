@@ -12,6 +12,9 @@ const rootFolder = path.join(__dirname);
 const srcFolder = path.join(rootFolder, 'src');
 const tmpFolder = path.join(rootFolder, '.tmp');
 const buildFolder = path.join(rootFolder, 'build');
+const nodeModuleFolder = path.join(rootFolder, 'node_modules');
+const jQueryDistFolder = path.join(nodeModuleFolder, 'jquery\dist');
+const fullCalendarDistFolder = path.join(nodeModuleFolder, 'fullcalendar\dist');
 const distFolder = path.join(rootFolder, 'dist');
 
 /**
@@ -99,7 +102,7 @@ gulp.task('rollup:fesm', function () {
  *    generated file into the /dist folder
  */
 gulp.task('rollup:umd', function () {
-  return gulp.src(`${buildFolder}/**/*.js`)
+  return gulp.src([`!${buildFolder}/**/*.js`, `${jQueryDistFolder}/*.js`, `${fullCalendarDistFolder}/*.js`])
   // transform the files here.
     .pipe(rollup({
 
