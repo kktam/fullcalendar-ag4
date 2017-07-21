@@ -30,3 +30,11 @@ Desktop.ini
 
 # Build files
 dist/*
+
+typings/globals/core-js/
+
+typings/globals/es6-shim/
+
+typings/globals/jasmine/
+
+typings/globals/node/
