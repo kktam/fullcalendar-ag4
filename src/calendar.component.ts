@@ -3,11 +3,15 @@ import * as jqueryProxy from 'jquery';
 import 'fullcalendar';
 import {Options} from 'fullcalendar';
 
+
 const jquery: JQueryStatic = (<any>jqueryProxy).default || jqueryProxy;
 
 @Component({
     selector: 'calendar-component',
-    template: '<div></div>'
+    template: '<div></div>',
+    styleUrls: [
+        'calender.component.scss'
+    ]
 })
 export class CalendarComponent implements AfterViewInit {
 
