@@ -35,7 +35,7 @@ import { CalendarModule } from 'fullcalendar-ag4';
     BrowserModule,
 
     // Specify your library as an import
-    CalendarModule
+    CalendarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -50,7 +50,13 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<CalendarComponent></CalendarComponent>
+<calendar-component></calendar-component>
+```
+
+To include the original FullCalendar.io styles, add the following statement to include the FullCalendar css in styles.css of the application.
+
+```
+@import "~fullcalendar-ag4/styles.css";
 ```
 
 ## Development
