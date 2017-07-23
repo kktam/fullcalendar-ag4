@@ -1,5 +1,9 @@
 # fullcalendar-ag4
 
+A Re-usable Angular4 Calendar component wrapping [https://fullcalendar.io/](https://fullcalendar.io/)
+
+This component is build using [https://github.com/jvandemo/generator-angular2-library](https://github.com/jvandemo/generator-angular2-library)
+
 ## Installation
 
 To install this library, run:
